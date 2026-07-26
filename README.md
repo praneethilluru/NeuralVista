@@ -175,7 +175,7 @@ The model was trained on a 2-class dataset (brain tumor present / not present). 
 
 ## Deployment
 
-The app is containerised with a multi-stage Dockerfile (Node 20 build → Python 3.11 runtime) and deployed on Hugging Face Spaces. The frontend is built by Vite and served as static files by FastAPI.
+The app is containerised with a multi-stage Dockerfile (Node 20 build → Python 3.11 runtime) and can be deployed on Hugging Face Spaces. The frontend is built by Vite and served as static files by FastAPI.
 
 ---
 
